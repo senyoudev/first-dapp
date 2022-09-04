@@ -1,13 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  background-color: #f6f7fc;
+  font-family: 'Poppins', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar-color {
+  background-color: #f6f7fc!important;
+    box-shadow: 0px 24px 70px rgba(97, 96, 96, 0.1);
+}
+
+
+.info-container {
+    background: #f6f7fc;
+    box-shadow: 0px 24px 70px rgba(0, 0, 0, 0.1);
+    border-radius: 55px;
+    height: 200px;
+    margin: 40px 20px;
+    overflow: hidden;
+    
+}
+.text-color {
+  color:#858585!important;
+}
+
+.btn-design {
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    background: linear-gradient(0deg, rgba(109, 129, 254, 0.6) 0%, rgba(109, 129, 254, 1) 100%)!important;
+    border-radius: 100px!important;
+    box-shadow: 0px 4px 52px rgba(109, 129, 254, 0.4)!important;
+    height: 40px!important;
+    color: #f6f7fc!important;
+    font-size: 14px!important;
+    border:none!important;
+}
+
+.btn-design:hover {
+  background: linear-gradient(0deg, rgba(109, 129, 254, 0.4) 0%, rgba(109, 129, 254, 0.8) 100%)!important;
+    box-shadow: 0px 6px 20px rgba(109, 129, 254, 0.5)!important;
+    color: rgba(35, 49, 76, 0.7)!important;
+    cursor: pointer!important;
 }
